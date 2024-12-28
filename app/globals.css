@@ -3,3 +3,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#hero-section {
+    background-image: url(../public/assets/shared/desktop/bg-pattern-circle.svg);
+    background-position: 100% 90%;
+    background-repeat: no-repeat;
+}
+
+#desktop-background {
+    background-image: url(../public/assets/shared/desktop/bg-pattern-circle.svg);
+    background-position: 120% 160%;
+    background-repeat: no-repeat;
+}
+
+#purpose-background {
+    background-image: url(../public/assets/shared/desktop/bg-pattern-circle.svg);
+    background-position: 120% 30%;
+    background-repeat: no-repeat;
+}
+
+#brand-background {
+    background-image: url(../public/assets/shared/desktop/bg-pattern-circle.svg);
+    background-position: -30% 160%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    #desktop-background {
+        background-image: url(../public/assets/shared/desktop/bg-pattern-circle.svg);
+        background-position: 100% 300%;
+        background-repeat: no-repeat;
+    }
+
+    #brand-background {
+        background-image: url(../public/assets/shared/desktop/bg-pattern-circle.svg);
+        background-position: 100% 500%;
+        background-repeat: no-repeat;
+    }
+
+    #purpose-background {
+        background: transparent;
+    }
+
+  }
+
+  @media (max-width: 480px) {
+    #desktop-background {
+        background-image: url(../public/assets/shared/desktop/bg-pattern-circle.svg);
+        background-position: 50% -90%;
+        background-repeat: no-repeat;
+        background-size: 450px;
+    }
+
+    #brand-background {
+        background-image: url(../public/assets/shared/desktop/bg-pattern-circle.svg);
+        background-position: 50% -70%;
+        background-repeat: no-repeat;
+        background-size: 450px;
+    }
+
+    #purpose-background {
+        background: transparent;
+    }
+    
+  }
+

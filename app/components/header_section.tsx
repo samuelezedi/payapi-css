@@ -8,7 +8,7 @@ const toggle = () => {
 
 const HeaderSection = () => {
   return (
-    <header className="px-8">
+    <header className="px-8 lg:max-w-6xl mx-auto">
         <nav>
           <div className="flex items-center justify-between pt-10">
             <a href="#" className="">
@@ -20,7 +20,7 @@ const HeaderSection = () => {
               />
             </a>
 
-            <div className="hidden md:flex items-center justify-evenly">
+            <div className="hidden md:flex items-center justify-evenly lg:justify-start lg:w-4/6 ">
               {["Pricing", "About", "Contact"].map((item) => (
                 <a href="#" className="text-lightSanHuanBlue hover:text-mirageBlue font-publicSans font-bold px-5">{item}</a>
               ))}

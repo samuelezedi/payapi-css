@@ -12,7 +12,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body
+      <body 
         className="antialiased font-dmSerifDisplay bg-[#EDF3F8]"
       >
         <div className="relative">

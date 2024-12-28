@@ -17,6 +17,10 @@ export default {
       padding: {
         '4x2': '1.2rem',
       },
+      fontSize: {
+        '6xl': '3.815rem',
+        '7xl': '4.768rem'
+      },
       borderWidth: {
         '0x1': '0.1px',
         '0x2': '0.2px',
@@ -27,6 +31,11 @@ export default {
         '0x7': '0.7px',
         '0x8': '0.8px',
         '0x9': '0.9px',
+      },
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3rem',
+        '13': '4.5rem'
       },
       colors: {
         background: "var(--background)",
